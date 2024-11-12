@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Carpeta Output
+output/
+
