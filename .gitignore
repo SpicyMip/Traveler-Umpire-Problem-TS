@@ -34,3 +34,5 @@
 # Carpeta Output
 output/
 
+# Ejecutable binario
+/[!.]* 
