@@ -27,13 +27,11 @@ proyecto_tup/
 │   ├── instancia.cpp             # Implementación de la lectura de instancia
 │   ├── evaluacion.cpp            # Implementación de la función de evaluación
 │   ├── solucion_inicial.cpp      # Generación de la solución inicial
-│   ├── movimientos.cpp           # (Espacio reservado para el algoritmo de Búsqueda Tabú)
 │   ├── output_writer.cpp         # Escritura del output en un archivo de texto
 ├── include/
 │   ├── instancia.h               # Encabezado para la lectura de instancia
 │   ├── evaluacion.h              # Encabezado para la función de evaluación
 │   ├── solucion_inicial.h        # Encabezado para la solución inicial
-│   ├── movimientos.h             # (Espacio reservado para la Búsqueda Tabú)
 │   ├── output_writer.h           # Encabezado para la escritura del output
 ├── data/
 │   ├── umps4.txt                 # Archivo de ejemplo con instancia del problema
