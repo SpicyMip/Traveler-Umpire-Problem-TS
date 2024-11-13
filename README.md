@@ -23,21 +23,23 @@ En este proyecto, estamos desarrollando una solución en C++ que actualmente inc
 ```bash
 proyecto_tup/
 ├── src/
-│   ├── main.cpp                  # Archivo principal para ejecutar el programa
-│   ├── instancia.cpp             # Implementación de la lectura de instancia
-│   ├── evaluacion.cpp            # Implementación de la función de evaluación
-│   ├── solucion_inicial.cpp      # Generación de la solución inicial
-│   ├── output_writer.cpp         # Escritura del output en un archivo de texto
+│   ├── main.cpp                          # Archivo principal para ejecutar el programa
+│   ├── instancia.cpp                     # Implementación de la lectura de instancia
+│   ├── evaluacion.cpp                    # Implementación de la función de evaluación
+│   ├── solucion_inicial.cpp              # Generación de la solución inicial
+│   ├── output_writer.cpp                 # Escritura del output en un archivo de texto
 ├── include/
-│   ├── instancia.h               # Encabezado para la lectura de instancia
-│   ├── evaluacion.h              # Encabezado para la función de evaluación
-│   ├── solucion_inicial.h        # Encabezado para la solución inicial
-│   ├── output_writer.h           # Encabezado para la escritura del output
+│   ├── instancia.h                       # Encabezado para la lectura de instancia
+│   ├── evaluacion.h                      # Encabezado para la función de evaluación
+│   ├── solucion_inicial.h                # Encabezado para la solución inicial
+│   ├── output_writer.h                   # Encabezado para la escritura del output
 ├── data/
-│   ├── umps4.txt                 # Archivo de ejemplo con instancia del problema
+│   ├── [instancias]                      # Archivo de ejemplo con instancia del problema
+│   ├── ...                         
 ├── output/
-│   ├── [Nombre instancia]_[Semilla].txt # Archivos de salida generados
-└── Makefile                      # Archivo para compilar y ejecutar el programa
+│   ├── [Nombre instancia]_[Semilla].txt  # Archivos de salida generados
+│   ├── ...  
+└── Makefile                              # Archivo para compilar y ejecutar el programa
 
 ```
 ## Ejecución
