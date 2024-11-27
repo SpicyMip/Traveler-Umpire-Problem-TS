@@ -55,14 +55,21 @@ Esto generará un ejecutable llamado `proyecto_tup`.
 Para ejecutar el programa, usa el siguiente comando:
 
 ```bash
-make run ARGS="data/umps4.txt [semilla]"
+make run ARGS="[Nombre de la instancia] [d1] [d2] [semilla]"
 ```
-- `data/umps4.txt`: Especifica la ruta del archivo de instancia con los datos de entrada.
-- `[semilla]` (opcional): Proporciona una semilla para generar una solución inicial reproducible. Si no se incluye, el programa utilizará el tiempo actual como semilla para generar una solución aleatoria.
-### Ejemplo de Ejecución
+### Ejemplo:
 ```bash
-make run ARGS="data/umps4.txt 12345"
+make run ARGS="data/umps4.txt 2 1 202073528"
 ```
+### Ejemplo 2:
+```bash
+make run ARGS="data/umps4.txt 2 1"
+```
+- `[Nombre de la instancia]`: Especifica la ruta del archivo de instancia con los datos de entrada.
+- `[d1]`: Especifica el valor que tendra d1 durante la ejecucion.
+- `[d2]`: Especifica el valor que tendra d2 durante la ejecucion.
+- `[semilla]` (opcional): Proporciona una semilla para generar una solución inicial reproducible. Si no se incluye, el programa utilizará el tiempo actual como semilla para generar una solución aleatoria.
+
 ### Salida del Programa
 1. Consola: La ejecución muestra en consola la distancia total, los valores de `d1` y `d2`, y la matriz que representa las asignaciones de árbitros en cada ronda.
 
