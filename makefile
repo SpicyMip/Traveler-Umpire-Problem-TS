@@ -3,7 +3,7 @@ CXXFLAGS = -std=c++17 -Wall -g
 
 TARGET = proyecto_tup
 
-SRC = src/main.cpp src/instancia.cpp src/evaluacion.cpp src/solucion_inicial.cpp src/output_writer.cpp
+SRC = src/main.cpp src/instancia.cpp src/evaluacion.cpp src/solucion_inicial.cpp src/output_writer.cpp src/tabu_search.cpp src/utils.cpp
 OBJ = $(SRC:.cpp=.o)
 INC = -Iinclude
 
